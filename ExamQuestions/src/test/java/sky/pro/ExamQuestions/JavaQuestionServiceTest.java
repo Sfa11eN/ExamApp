@@ -13,6 +13,6 @@ public class JavaQuestionServiceTest {
         service.addQuestion(new Question("You really wanna learn java?", "Yep i tnk its best  programming language."));
 
         assertEquals(1, service.getAllQuestions().size());
-        assertEquals("whats java ?", service.getAllQuestions().get(0).getQuestion());
+        assertEquals("You really wanna learn java?", service.getAllQuestions().get(0).getQuestion());
     }
 }
